@@ -1,0 +1,3 @@
+'hola patrones'
+'hola mundo' ← deshecho el reemplazo
+'' ← deshecha la escritura

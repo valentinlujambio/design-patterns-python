@@ -1,0 +1,8 @@
+¿Cómo pido vacaciones?                     MISS                           80.6 ms
+¿Cómo pido las vacaciones?                 HIT (≈ '¿Cómo pido vacaciones?')    0.0 ms
+cómo solicito vacaciones                   MISS                           80.3 ms
+¿Cuál es la política de trabajo remoto?    MISS                           80.4 ms
+¿Cómo pido vacaciones?                     HIT (≈ '¿Cómo pido vacaciones?')    0.0 ms
+
+tasa de acierto: 40% · llamadas reales al modelo: 3
+ojo: un umbral bajo devuelve respuestas de otra pregunta; medí falsos positivos antes de bajarlo.

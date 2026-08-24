@@ -1,0 +1,4 @@
+  uno por uno            16 pedidos en    676 ms
+    → 16 llamadas al modelo para 16 imágenes
+  con micro-batching     16 pedidos en    115 ms
+    → 2 llamadas al modelo para 16 imágenes

@@ -1,0 +1,17 @@
+— consulta 1 —
+  · primario-barato: 429 el modelo mini está saturado (intento 1), espero 21 ms
+  · primario-barato: 429 el modelo mini está saturado (intento 2), espero 41 ms
+  → resuelta por: secundario-capaz
+    [estandar] En resumen sobre cómo configuro notificaciones: hay tres fa…
+
+— consulta 2 —
+  · primario-barato: 429 el modelo mini está saturado (intento 1), espero 21 ms
+  · primario-barato: 429 el modelo mini está saturado (intento 2), espero 40 ms
+  → resuelta por: secundario-capaz
+    [estandar] Respuesta sobre cómo configuro notificaciones: es un caso d…
+
+— consulta 3 —
+  · primario-barato: cortacircuitos abierto, se saltea
+  → resuelta por: secundario-capaz
+    [estandar] Respuesta sobre cómo configuro notificaciones: es un caso d…
+

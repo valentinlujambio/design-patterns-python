@@ -1,0 +1,2 @@
+(2 + 3) · 4 = 20
+profundidad del árbol: 3

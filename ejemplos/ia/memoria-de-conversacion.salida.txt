@@ -1,0 +1,4 @@
+completa     6 mensajes ·  86 tokens · ¿recuerda el nombre? sí
+ventana      3 mensajes ·  38 tokens · ¿recuerda el nombre? no
+resumida     3 mensajes ·  59 tokens · ¿recuerda el nombre? sí
+relevancia   4 mensajes ·  55 tokens · ¿recuerda el nombre? sí

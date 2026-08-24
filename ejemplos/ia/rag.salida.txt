@@ -1,0 +1,15 @@
+— recuperador denso —
+[estandar] Respuesta sobre contexto manual vacaciones: es un caso donde conviene empezar por lo más simple y medir antes de optimizar.
+  fuentes recuperadas: d1 
+
+— recuperador léxico —
+[estandar] Respuesta sobre contexto manual vacaciones: es un caso donde conviene empezar por lo más simple y medir antes de optimizar.
+  fuentes recuperadas: d1 
+
+— recuperador híbrido —
+[estandar] En resumen sobre contexto manual vacaciones: hay tres factores clave y el contexto decide cuál pesa más.
+  fuentes recuperadas: d1, d2, d3 
+
+— pregunta fuera del corpus —
+[estandar] Respuesta sobre contexto manual vacaciones: es un caso donde conviene empezar por lo más simple y medir antes de optimizar.
+  fuentes recuperadas: d1, d4

@@ -1,0 +1,9 @@
+  época  1 · lr=0.1000 · train_loss=0.8100 val_loss=0.9000
+  época  2 · lr=0.1000 · train_loss=0.5580 val_loss=0.6200
+  época  3 · lr=0.0500 · train_loss=0.4320 val_loss=0.4800
+  época  4 · lr=0.0500 · train_loss=0.4230 val_loss=0.4700
+  época  5 · lr=0.0250 · train_loss=0.4275 val_loss=0.4750
+  época  6 · lr=0.0250 · train_loss=0.4302 val_loss=0.4780
+  ⏹ early stopping: val_loss no mejora hace 2 épocas
+  mejor época: 4 (val_loss=0.4700)
+  checkpoints escritos: ['checkpoint-epoca-1.pt', 'checkpoint-epoca-2.pt', 'checkpoint-epoca-3.pt', 'checkpoint-epoca-4.pt']

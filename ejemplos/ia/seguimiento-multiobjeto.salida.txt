@@ -1,0 +1,14 @@
+      · nueva: #1 persona
+      · nueva: #2 auto
+  frame 0: 2 detecciones → [] confirmadas
+      · confirmada: #1 persona
+      · confirmada: #2 auto
+  frame 1: 2 detecciones → ['#1', '#2'] confirmadas
+  frame 2: 1 detecciones → ['#1', '#2'] confirmadas
+      · nueva: #3 persona
+  frame 3: 2 detecciones → ['#1', '#2'] confirmadas
+      · perdida: #2 auto
+  frame 4: 1 detecciones → ['#1'] confirmadas
+  frame 5: 1 detecciones → ['#1'] confirmadas
+
+  personas únicas contadas: 1

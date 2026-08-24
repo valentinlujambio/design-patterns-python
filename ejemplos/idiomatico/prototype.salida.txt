@@ -1,0 +1,4 @@
+Informe enero → [('fondo', 1.0), ('encabezado', 0.9), ('gráfico', 1.0)]
+Informe febrero → [('fondo', 0.2), ('encabezado', 0.9), ('gráfico', 1.0)]
+¿la plantilla original quedó intacta? True
+copia superficial comparte las capas: True

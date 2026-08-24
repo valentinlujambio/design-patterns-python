@@ -1,0 +1,13 @@
+— normal —
+  [mini] Respuesta sobre cómo pido vacaciones: es un caso donde conviene empezar por lo más simple y medir antes de optimizar. 
+
+— inyección —
+  ⛔ entrada rechazada — posible inyección de prompt 
+
+— dato personal —
+  entrada saneada (documento enmascarado (x1)): Mi documento es [DOCUMENTO], ¿figuro en el padrón?
+  [mini] Respuesta sobre documento documento figuro: es un caso donde conviene empezar por lo más simple y medir antes de optimizar. 
+
+— fuga en la salida —
+  Escribile a [EMAIL] o al [TARJETA].  [email redactado (x1); tarjeta redactada (x1)] 
+

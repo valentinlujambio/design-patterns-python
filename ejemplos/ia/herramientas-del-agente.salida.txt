@@ -1,0 +1,22 @@
+catálogo publicado al modelo:
+[
+  {
+    "name": "sumar",
+    "description": "Suma dos números y devuelve el resultado exacto.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number"
+        },
+        "b": {
+          "type": "number"
+        }
+      },
+ …
+
+42
+MOU-07: 0
+ERROR: TypeError: stock() missing 1 required positional argument: 'sku'
+ERROR: acción rechazada por el humano
+reembolso de $100.0 emitido para A-1

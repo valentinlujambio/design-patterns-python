@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ *
+ * Tokens de tema. Claro por defecto, oscuro con .dark en <html>.
+ * ------------------------------------------------------------------ */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo,
+    Consolas, monospace;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #fbfbfd;
+  --bg-soft: #f3f4f8;
+  --surface: #ffffff;
+  --surface-2: #f7f8fb;
+  --border: #e4e6ee;
+  --border-strong: #d2d5e2;
+  --text: #16181f;
+  --text-soft: #565b6b;
+  --text-faint: #8a8fa1;
+  --accent: #4f46e5;
+  --accent-soft: #eef0ff;
+  --accent-text: #4338ca;
+  --shadow: 0 1px 2px rgb(16 18 31 / 0.06), 0 8px 24px -12px rgb(16 18 31 / 0.12);
+}
+
+.dark {
+  --bg: #0b0d12;
+  --bg-soft: #101319;
+  --surface: #14171f;
+  --surface-2: #191d27;
+  --border: #262b38;
+  --border-strong: #333a4b;
+  --text: #e9ebf2;
+  --text-soft: #a5abbd;
+  --text-faint: #767d92;
+  --accent: #8b87ff;
+  --accent-soft: #1e1f3d;
+  --accent-text: #b3b0ff;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -16px rgb(0 0 0 / 0.6);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-ink: var(--text);
+  --color-ink-soft: var(--text-soft);
+  --color-ink-faint: var(--text-faint);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-text);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  color-scheme: light;
+}
+html.dark { color-scheme: dark; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--accent); color: #fff; }
+
+/* Colores por familia de patrones */
+.fam-creacional { --fam: #0d9488; --fam-soft: #d5f5f0; }
+.fam-estructural { --fam: #2563eb; --fam-soft: #dbe7ff; }
+.fam-comportamiento { --fam: #c2410c; --fam-soft: #ffe6d5; }
+.fam-llm { --fam: #7c3aed; --fam-soft: #ece2ff; }
+.fam-ml { --fam: #0369a1; --fam-soft: #d8eefc; }
+.fam-cv { --fam: #be185d; --fam-soft: #ffe0ee; }
+.fam-fundamentos { --fam: #4f46e5; --fam-soft: #e6e6ff; }
+.dark .fam-creacional { --fam: #5eead4; --fam-soft: #0c2e2b; }
+.dark .fam-estructural { --fam: #93b8ff; --fam-soft: #131e35; }
+.dark .fam-comportamiento { --fam: #fdba74; --fam-soft: #2e1a10; }
+.dark .fam-llm { --fam: #c4b5fd; --fam-soft: #211a38; }
+.dark .fam-ml { --fam: #7dd3fc; --fam-soft: #0d2233; }
+.dark .fam-cv { --fam: #f9a8d4; --fam-soft: #33122a; }
+.dark .fam-fundamentos { --fam: #a5b4fc; --fam-soft: #1b1c3a; }
+
+/* ------------------------------------------------------------------ *
+ * Bloques de código resaltados con Shiki (doble tema).
+ * ------------------------------------------------------------------ */
+.shiki-block pre {
+  overflow-x: auto;
+  padding: 1rem 1.1rem;
+  font-size: 0.8125rem;
+  line-height: 1.65;
+  tab-size: 4;
+}
+.shiki-block code { display: block; font-family: var(--font-mono); }
+.shiki-block .line { min-height: 1.65em; }
+.shiki-block .shiki,
+.shiki-block .shiki span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+}
+.dark .shiki-block .shiki,
+.dark .shiki-block .shiki span {
+  color: var(--shiki-dark) !important;
+  background-color: var(--shiki-dark-bg) !important;
+  font-style: var(--shiki-dark-font-style) !important;
+}
+
+/* Utilidades de prosa */
+.prose-app { line-height: 1.75; }
+.prose-app p { margin-bottom: 0.9rem; }
+.prose-app strong { color: var(--text); font-weight: 650; }
+.prose-app code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  padding: 0.08em 0.35em;
+}
+
+@media print {
+  .no-print { display: none !important; }
+}

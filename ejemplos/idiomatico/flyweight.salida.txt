@@ -1,0 +1,4 @@
+árboles: 10000
+objetos TipoDeArbol distintos: 2
+¿comparten el flyweight? True
+bytes por árbol (con __slots__): 56

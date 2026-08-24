@@ -1,0 +1,11 @@
+  detecciones crudas: 9
+    confianza    9 →   8
+    clases_      8 →   7
+    area         7 →   6
+    nms_         6 →   3
+    top          3 →   3
+
+  detecciones finales:
+    persona  conf=0.95 área=2500
+    persona  conf=0.80 área=4200
+    auto     conf=0.65 área=4900

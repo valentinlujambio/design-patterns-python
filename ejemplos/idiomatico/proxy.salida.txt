@@ -1,0 +1,6 @@
+(todavía no se creó nada caro)
+… inicializando el servicio real (lento)
+  · consultar('gatos',) → 50.1 ms
+  · consultar('gatos',) → 0.0 ms
+  · consultar('perros',) → 50.1 ms
+estadísticas: {'hits': 1, 'misses': 2}

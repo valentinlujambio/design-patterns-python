@@ -1,0 +1,8 @@
+📁 proyecto/ (7680 B)
+  📄 README.md (1200 B)
+  📁 src/ (4380 B)
+    📄 main.py (3400 B)
+    📄 utils.py (980 B)
+  📁 tests/ (2100 B)
+    📄 test_main.py (2100 B)
+total: 7680 bytes

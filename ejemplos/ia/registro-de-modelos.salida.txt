@@ -1,0 +1,7 @@
+compuerta de calidad: riesgo:v1 no pasa la compuerta (auc=0.71 < 0.8)
+en producción: riesgo:v2 linaje 42f3eb2f3630
+predicción: 1.4
+
+inventario:
+  riesgo:v1    staging     auc=0.71
+  riesgo:v2    produccion  auc=0.83

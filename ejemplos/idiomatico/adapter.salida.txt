@@ -1,0 +1,2 @@
+AdaptadorRedis → {'usuario': 'ana', 'visitas': 2}
+AlmacenEnMemoria → {'usuario': 'ana', 'visitas': 2}

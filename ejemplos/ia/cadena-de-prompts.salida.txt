@@ -1,0 +1,7 @@
+ · 1-extraer → 33 tok
+ · 2-analizar → 27 tok
+ · 3-truncar (sin LLM)
+ · 4-redactar → 33 tok
+
+respuesta final: [mini] Respuesta sobre escribí respuesta cliente: es un caso donde conviene empezar por lo más simpl …
+uso total: 3 llamadas · 222 tokens · US$ 0.000592
