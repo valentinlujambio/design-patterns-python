@@ -102,6 +102,11 @@ body {
 }
 .shiki-block code { display: block; font-family: var(--font-mono); }
 .shiki-block .line { min-height: 1.65em; }
+.shiki-block .shiki,
+.shiki-block .shiki span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+}
 .dark .shiki-block .shiki,
 .dark .shiki-block .shiki span {
   color: var(--shiki-dark) !important;

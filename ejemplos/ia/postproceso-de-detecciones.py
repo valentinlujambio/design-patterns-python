@@ -116,7 +116,7 @@ CRUDAS = [
     Caja(12, 11, 62, 63, "persona", 0.91),     # duplicado del anterior
     Caja(14, 13, 58, 59, "persona", 0.88),     # otro duplicado
     Caja(200, 40, 260, 110, "persona", 0.80),
-    Caja(100, 100, 104, 104, "persona", 0.72), # ruido: área diminuta
+    Caja(100, 100, 104, 104, "persona", 0.72),  # ruido: área diminuta
     Caja(150, 150, 220, 220, "auto", 0.65),
     Caja(151, 152, 219, 221, "auto", 0.60),    # duplicado
     Caja(300, 300, 340, 340, "gato", 0.99),    # clase que no interesa
