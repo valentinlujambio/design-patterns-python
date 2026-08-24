@@ -1,0 +1,21 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.vercel/
+
+# Scraper cache (contenido de terceros: NO se versiona ni se publica)
+.cache/
+content/scraped/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Entorno
+.env
+.env.local
+.DS_Store

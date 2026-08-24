@@ -1,0 +1,10 @@
+  a>0.5    exactitud 0.75
+  b>0.5    exactitud 0.75
+  c>0.5    exactitud 0.75
+
+  ensamble voto       exactitud 1.00
+  ensamble promedio   exactitud 1.00
+  ensamble mediana    exactitud 1.00
+  ensamble ponderado  exactitud 1.00
+
+  anidado: e1=1, c>0.5=0 → 0.5

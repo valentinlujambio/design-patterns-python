@@ -1,0 +1,7 @@
+hola!                                          → ruta 'cortesía'
+refactorizá esta class Pedido para que use d   → ruta 'código'
+¿Cuál es la diferencia entre Strategy y Stat   → ruta 'general'
+Tengo un sistema de recomendación que necesi   → ruta 'análisis-largo'
+
+ 4 llamadas · 263 tokens · US$ 0.003581
+detalle: ['cortesía: mini (14+32 tok)', 'código: grande (26+33 tok)', 'general: mini (22+27 tok)', 'análisis-largo: estandar (80+29 tok)']

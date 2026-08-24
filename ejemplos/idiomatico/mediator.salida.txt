@@ -1,0 +1,7 @@
+[campo] el usuario escribió 'patrones'
+[lista] mostrando resultados de 'patrones'
+[botón] habilitado
+
+[campo] el usuario escribió ''
+[lista] mostrando resultados de ''
+[botón] deshabilitado

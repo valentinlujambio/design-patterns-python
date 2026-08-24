@@ -1,0 +1,10 @@
+— lote bueno —
+  ✅ el lote cumple el contrato
+
+— lote roto —
+  ⛔ no_nulos(edad): 33% de nulos (máximo 0%)
+  ⛔ no_nulos(ingreso): 33% de nulos (máximo 10%)
+  ⛔ en_rango(edad): 1 valores fuera de [18, 110]: [450]
+  ⚠️  categorías(ciudad): valores nuevos: ['montevideo']
+  ⚠️  sin_deriva(ingreso): media 80750.0 vs referencia 1500.0 (5283%)
+  entrenamiento abortado: clientes-v1: 3 expectativas violadas

@@ -1,0 +1,16 @@
+— corrida 1 (se corta en la época 3) —
+  época 1: pérdida 0.9 (checkpoint guardado)
+  época 2: pérdida 0.72 (checkpoint guardado)
+  época 3: pérdida 0.486 (checkpoint guardado)
+
+💥 la instancia se cayó
+
+— corrida 2 (reanuda desde el checkpoint) —
+  restaurado en la época 3 con pesos [0.3587, -0.1553]
+  época 4: pérdida 0.2268
+  época 5: pérdida 0.02916
+
+— control: correr 5 épocas de una sola vez —
+  pérdida final de corrido: 0.02916
+  pérdida final reanudando: 0.02916
+  ¿la reanudación es equivalente? True

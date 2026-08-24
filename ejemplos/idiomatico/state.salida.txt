@@ -1,0 +1,12 @@
+— autor admin=False —
+  borrador → en revisión
+  hace falta un admin para publicar
+  en revisión → borrador
+  estado final: borrador 
+
+— autor admin=True —
+  borrador → en revisión
+  en revisión → publicado
+  publicado → borrador
+  estado final: borrador 
+

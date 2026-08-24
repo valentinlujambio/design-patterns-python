@@ -1,0 +1,4 @@
+… leyendo configuración del disco (esto pasa una sola vez)
+{'entorno': 'prod'} True
+misma instancia: True | tamaño: 10 ← ojo: el segundo constructor se ignoró en silencio
+consistente entre hilos: True

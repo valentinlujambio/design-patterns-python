@@ -1,0 +1,11 @@
+  (pidiendo página 1)
+item: a
+item: b
+  (pidiendo página 2)
+item: c
+contador a mano: [3, 2, 1]
+  (pidiendo página 1)
+  (pidiendo página 2)
+  (pidiendo página 3)
+primer recorrido: ['a', 'b', 'c', 'd', 'e']
+segundo recorrido del mismo iterador: []

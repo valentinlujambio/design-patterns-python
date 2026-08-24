@@ -1,0 +1,3 @@
+SELECT id, email FROM usuarios WHERE activo = ? AND ultimo_login > ? ORDER BY ultimo_login DESC LIMIT 50
+parámetros: (True, '2026-01-01')
+SELECT nivel FROM logs LIMIT 10

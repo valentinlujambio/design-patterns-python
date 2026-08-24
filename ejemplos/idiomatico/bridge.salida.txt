@@ -1,0 +1,4 @@
+<circle cx="10" cy="10" r="5"/>
+<rect x="0" y="0" width="8" height="8"/>
+círculo en (10,10) radio 5
+rectángulo 8x8 en (0,0)

@@ -1,0 +1,9 @@
+entrenamiento:
+   {'edad': -1.225, 'ingreso': -1.225, 'ciudad': 0}
+   {'edad': 0.0, 'ingreso': 0.0, 'ciudad': 1}
+   {'edad': 1.225, 'ingreso': 1.225, 'ciudad': 0}
+
+producción (mismos parámetros aprendidos, sin volver a hacer fit):
+   {'edad': -0.612, 'ingreso': 0.0, 'ciudad': -1}
+
+media aprendida en entrenamiento: {'ingreso': 2000.0}

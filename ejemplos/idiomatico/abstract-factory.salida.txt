@@ -1,0 +1,8 @@
+— Formulario (macOS) —
+☑ casilla de macOS
+( Aceptar )  ← botón redondeado de macOS
+
+— Formulario (Windows) —
+[x] casilla de Windows
+[ Aceptar ]  ← botón rectangular de Windows
+

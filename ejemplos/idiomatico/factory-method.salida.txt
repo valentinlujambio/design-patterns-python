@@ -1,0 +1,4 @@
+[email->ana@ejemplo.com] El build pasó a verde.
+[sms->+54911] El build pasó a verde.
+[consola] El build pasó a verde.
+Error esperado: Canal desconocido: 'paloma-mensajera'

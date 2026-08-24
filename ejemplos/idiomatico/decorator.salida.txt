@@ -1,0 +1,6 @@
+  intento 1 falló: 503 servicio no disponible
+  intento 2 falló: 503 servicio no disponible
+respuesta: {'ok': true} 
+
+ 1| HOLA MUNDO
+ 2| SEGUNDA LÍNEA

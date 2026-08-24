@@ -1,0 +1,6 @@
+ImportadorCSV
+  cargando 2 filas en la base
+  → {'origen': 'archivo-de-ejemplo', 'cargadas': 2}
+ImportadorJSONL
+  cargando 2 filas en la base
+  → {'origen': 'archivo-de-ejemplo', 'cargadas': 2}

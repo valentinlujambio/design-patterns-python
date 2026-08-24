@@ -1,0 +1,11 @@
+variables declaradas: ['idioma', 'max_frases', 'ticket', 'tono'] 
+
+— resumen-de-ticket v1.0.0 —
+system: Sos un asistente de soporte. Respondés en español, en tono empático, sin inventar datos que no estén en el ticket.
+tokens de entrada: 74 
+
+— resumen-de-ticket v2.0.0 —
+system: Sos un asistente de soporte. Respondés en español, en tono empático, sin inventar datos que no estén en el ticket.
+tokens de entrada: 75 
+
+Error detectado antes de gastar un token: "falta la variable 'ticket' en el prompt"

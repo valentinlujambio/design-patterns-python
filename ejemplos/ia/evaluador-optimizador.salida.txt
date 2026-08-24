@@ -1,0 +1,5 @@
+  vuelta 1: puntaje 0.00 fallas=['menciona un plazo concreto', 'ofrece un canal de contacto', 'no promete reembolsos']
+  vuelta 2: puntaje 1.00 fallas=—
+
+mejor versión (puntaje 1.00):
+  Ya estamos revisando tu caso y te respondemos en 48 horas. Escribinos a soporte@empresa.com si necesitás algo antes.

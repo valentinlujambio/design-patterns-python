@@ -1,0 +1,4 @@
+/perfil              → 200 OK (/perfil)         ['tasa-ok', 'autenticado', 'autorizado', 'manejado']
+/admin/usuarios      → 403 prohibido            ['tasa-ok', 'autenticado']
+/perfil              → 401 no autenticado       ['tasa-ok']
+/api/export/todo     → 429 demasiadas peticiones []

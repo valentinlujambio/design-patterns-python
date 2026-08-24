@@ -1,0 +1,5 @@
+  intento 1: ✗ categoria debe ser una de ['facturación', 'técnico', 'cuenta', 'otro'], recibí 'billing'
+  intento 2: ✓
+
+objeto de dominio: Ticket(categoria='facturación', prioridad=3, resumen='No recibió la factura de marzo', requiere_humano=False)
+tipo de prioridad: int

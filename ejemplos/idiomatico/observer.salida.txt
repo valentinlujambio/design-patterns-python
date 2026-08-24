@@ -1,0 +1,8 @@
+[panel] stock:teclado=5
+[email] cambio detectado → stock:teclado=5
+  ! observador <function observador_roto at 0x7f735af3b7e0> falló: me caí
+
+[email] cambio detectado → stock:mouse=2
+  ! observador <function observador_roto at 0x7f735af3b7e0> falló: me caí
+
+referencia débil, por si el observador debe morir con su dueño: True
